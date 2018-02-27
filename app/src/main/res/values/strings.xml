@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Paint</string>
+
+    <!-- Label for overflow menu option that inserts fake paint data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_sample_data">Insert Sample Data</string>
+
+    <!-- Label for overflow menu option that deletes all paint data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Paints</string>
+
+    <!-- Title for the activity to add a new paint [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_paint">Add a Paint</string>
+
+    <!-- Label for editor menu option to save paint and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current paint [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for supplier attributes in the editor [CHAR LIMIT=30] -->
+    <string name="supplier_header">Supplier Details</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_sup_name">Supplier Name</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_sup_phone">Supplier Phone</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_sup_email">Supplier E-mail</string>
+
+    <!-- Label for colour information in the editor [CHAR LIMIT=30] -->
+    <string name="category_colour">Colour</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_paint_colour">Colour</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_paint_price">Price</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_paint_size">Ltr</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Acme Ltd</string>
+
+    <!-- Text hint for phone field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_phone">+44 239245678</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_mail">acmepaints@email.com</string>
+
+    <!-- Pound sign for price [CHAR LIMIT=1] -->
+    <string name="unit_paint_price">£</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_paint_quantity">Quantity</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is red [CHAR LIMIT=20] -->
+    <string name="colour_red">Red</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is white [CHAR LIMIT=20] -->
+    <string name="colour_white">White</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is blue[CHAR LIMIT=20] -->
+    <string name="colour_blue">Blue</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is grey [CHAR LIMIT=20] -->
+    <string name="colour_grey">Grey</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is green [CHAR LIMIT=20] -->
+    <string name="colour_green">Green</string>
+
+    <!-- Label for dropdown menu option if the paint's colour is yellow [CHAR LIMIT=20] -->
+    <string name="colour_yellow">Yellow</string>
+
+   <!-- Toast message for  hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name ="editor_insert_paint_failed">Failed</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name ="editor_insert_paint_completed">Completed</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">No stock we are at risk of going out of business</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a paint [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a paint</string>
+
+    <!-- Title for the activity to add a new paint [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_paint">Edit a Paint</string>
+
+    <!-- Toast message in editor when current paint was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_paint_successful">Paint updated</string>
+
+    <!-- Toast message in editor when current paint has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_paint_failed">Error with updating paint</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current paint [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current paint was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_paint_successful">Paint deleted</string>
+
+    <!-- Toast message in editor when current paint has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_paint_failed">Error with deleting paint</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current paint [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this paint?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current paint [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current paint [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when new paint has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_paint_successful">Paint saved</string>
+</resources>
